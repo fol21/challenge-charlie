@@ -34,7 +34,7 @@ docker-compose up -d --build
 
 - Para converter latitude e longitude em uma localidade foi utilizada também a API do [OpenWeather](http://api.openweathermap.org/data/2.5/weather?lat={{latitude}}&lon{{longitude}}&appid=772920597e4ec8f00de8d376dfb3f094). Caso necessário, crie uma nova conta;
 
-- A API do OpenWeather provê nativamente ícones, o que facilita a interpretação dos testos de resumo das [condições climáticas ("cèu limpo", "nublado" etc)]( https://openweathermap.org/weather-conditions). ex: `http://openweathermap.org/img/wn/{{icon_tag}}@2x.png`;
+- A API do OpenWeather provê nativamente ícones, o que facilita a interpretação dos textos de resumo das [condições climáticas ("cèu limpo", "nublado" etc)]( https://openweathermap.org/weather-conditions). ex: `http://openweathermap.org/img/wn/{{icon_tag}}@2x.png`;
 
 - Logo que a página seja aberta são coletadas as coordenadas geográficas do usuário pela API do navegador para então se descobrir o nome da cidade via _reverse geocode_;
 
